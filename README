@@ -4,3 +4,7 @@ Small project with as many #JavaPuzzlers as possible to see how #sonar copes wit
 
 * [Java™ Puzzlers: Traps, Pitfalls, and Corner Cases](http://www.amazon.com/Java-Puzzlers-Traps-Pitfalls-Corner/dp/032133678X/ref=sr_1_1?ie=UTF8&qid=1329383271&sr=8-1)
 * [Dart's response to puzzlers]([http://www.dartlang.org/articles/puzzlers/chapter-1.html)
+
+# Running Sonar
+
+	mvn clean install sonar:sonar
