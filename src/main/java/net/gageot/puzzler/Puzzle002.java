@@ -11,10 +11,10 @@ public final class Puzzle002 {
 	}
 
 	public static void print() {
-		System.out.println(2.00 - 1.10);
+		Utils.print(2.00 - 1.10);
 	}
 
 	public static void printFixed() {
-		System.out.println(new BigDecimal("2.00").subtract(new BigDecimal("1.10")));
+		Utils.print(new BigDecimal("2.00").subtract(new BigDecimal("1.10")));
 	}
 }

@@ -9,16 +9,16 @@ public final class Puzzle003 {
 	}
 
 	public static void print() {
-		final long micros_per_day = 24 * 60 * 60 * 1000 * 1000;
-		final long millis_per_day = 24 * 60 * 60 * 1000;
+		final long microsPerDay = 24 * 60 * 60 * 1000 * 1000;
+		final long millisPerDay = 24 * 60 * 60 * 1000;
 
-		System.out.println(micros_per_day / millis_per_day);
+		Utils.print(microsPerDay / millisPerDay);
 	}
 
 	public static void printFixed() {
-		final long micros_per_day = 24L * 60 * 60 * 1000 * 1000;
-		final long millis_per_day = 24L * 60 * 60 * 1000;
+		final long microsPerDay = 24L * 60 * 60 * 1000 * 1000;
+		final long millisPerDay = 24L * 60 * 60 * 1000;
 
-		System.out.println(micros_per_day / millis_per_day);
+		Utils.print(microsPerDay / millisPerDay);
 	}
 }
