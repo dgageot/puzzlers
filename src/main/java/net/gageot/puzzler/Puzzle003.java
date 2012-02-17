@@ -2,7 +2,7 @@ package net.gageot.puzzler;
 
 /**
  * Long Division.<br/>
- * http://www.dartlang.org/articles/puzzlers/chapter-1.html#3
+ * http://my.safaribooksonline.com/book/programming/java/032133678x/expressive-puzzlers/ch02lev1sec3
  */
 public final class Puzzle003 {
 	private Puzzle003() {

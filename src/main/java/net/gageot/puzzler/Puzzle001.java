@@ -2,7 +2,7 @@ package net.gageot.puzzler;
 
 /**
  * Oddity.<br/>
- * http://www.dartlang.org/articles/puzzlers/chapter-1.html#1
+ * http://my.safaribooksonline.com/book/programming/java/032133678x/expressive-puzzlers/ch02lev1sec1
  */
 public final class Puzzle001 {
 	private Puzzle001() {

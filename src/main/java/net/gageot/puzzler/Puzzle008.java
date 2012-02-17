@@ -2,7 +2,7 @@ package net.gageot.puzzler;
 
 /**
  * Dos Equis.<br/>
- * http://www.dartlang.org/articles/puzzlers/chapter-1.html#8
+ * http://my.safaribooksonline.com/book/programming/java/032133678x/expressive-puzzlers/ch02lev1sec8
  */
 public final class Puzzle008 {
 	private Puzzle008() {

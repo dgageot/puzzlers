@@ -2,7 +2,7 @@ package net.gageot.puzzler;
 
 /**
  * Swap Meat.<br/>
- * http://www.dartlang.org/articles/puzzlers/chapter-1.html#7
+ * http://my.safaribooksonline.com/book/programming/java/032133678x/expressive-puzzlers/ch02lev1sec7
  */
 public final class Puzzle007 {
 	private Puzzle007() {

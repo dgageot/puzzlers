@@ -2,7 +2,7 @@ package net.gageot.puzzler;
 
 /**
  * The Joy of Hex.<br/>
- * http://www.dartlang.org/articles/puzzlers/chapter-1.html#5
+ * http://my.safaribooksonline.com/book/programming/java/032133678x/expressive-puzzlers/ch02lev1sec5
  */
 public final class Puzzle005 {
 	private Puzzle005() {
