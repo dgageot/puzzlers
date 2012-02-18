@@ -11,7 +11,7 @@ public final class Puzzle024 {
 	public static void bug() {
 		for (byte b = Byte.MIN_VALUE; b < Byte.MAX_VALUE; b++) {
 			if (b == 0x90) {
-				System.out.print("Joy!");
+				Utils.print("Joy!");
 			}
 		}
 	}
@@ -21,7 +21,7 @@ public final class Puzzle024 {
 	public static void fixed() {
 		for (byte b = Byte.MIN_VALUE; b < Byte.MAX_VALUE; b++) {
 			if (b == TARGET) {
-				System.out.print("Joy!");
+				Utils.print("Joy!");
 			}
 		}
 	}
