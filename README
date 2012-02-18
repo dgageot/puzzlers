@@ -7,4 +7,4 @@ Small project with as many #JavaPuzzlers as possible to see how #sonar copes wit
 
 # Running Sonar
 
-	mvn clean install sonar:sonar
+	mvn clean install && mvn sonar:sonar
