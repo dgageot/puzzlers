@@ -25,7 +25,7 @@ public final class Puzzle023 {
 		word.append('a');
 		word.append('i');
 		word.append('n');
-		System.out.println(word);
+		Utils.print(word);
 	}
 
 	public static void fixed() {
@@ -44,6 +44,6 @@ public final class Puzzle023 {
 		word.append('a');
 		word.append('i');
 		word.append('n');
-		System.out.println(word);
+		Utils.print(word);
 	}
 }

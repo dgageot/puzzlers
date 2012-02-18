@@ -11,18 +11,18 @@ public final class Puzzle020 {
 	}
 
 	public static void bug() {
-		System.out.println(Puzzle018.class.getName().replaceAll(".", "/") + ".class");
+		Utils.print(Puzzle018.class.getName().replaceAll(".", "/") + ".class");
 	}
 
 	public static void fixed() {
-		System.out.println(Puzzle018.class.getName().replace("\\.", "/") + ".class");
+		Utils.print(Puzzle018.class.getName().replace("\\.", "/") + ".class");
 	}
 
 	public static void fixedQuote() {
-		System.out.println(Puzzle018.class.getName().replace(Pattern.quote("."), "/") + ".class");
+		Utils.print(Puzzle018.class.getName().replace(Pattern.quote("."), "/") + ".class");
 	}
 
 	public static void otherFix() {
-		System.out.println(Puzzle018.class.getName().replace('.', '/') + ".class");
+		Utils.print(Puzzle018.class.getName().replace('.', '/') + ".class");
 	}
 }

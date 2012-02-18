@@ -27,4 +27,8 @@ public final class Utils {
 	public static void print(Object x) {
 		System.out.println(x);
 	}
+
+	public static void print(String x) {
+		System.out.println(x);
+	}
 }

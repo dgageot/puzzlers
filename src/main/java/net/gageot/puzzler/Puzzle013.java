@@ -11,12 +11,12 @@ public final class Puzzle013 {
 	public static void bug() {
 		final String pig = "length: 10";
 		final String dog = "length: " + pig.length();
-		System.out.println("Animals are equal: " + pig == dog);
+		Utils.print("Animals are equal: " + pig == dog);
 	}
 
 	public static void fixed() {
 		final String pig = "length: 10";
 		final String dog = "length: " + pig.length();
-		System.out.println("Animals are equal: " + pig.equals(dog));
+		Utils.print("Animals are equal: " + pig.equals(dog));
 	}
 }

@@ -17,7 +17,7 @@ public final class Puzzle018 {
 		}
 		String str = new String(bytes);
 		for (int i = 0, n = str.length(); i < n; i++) {
-			System.out.print((int) str.charAt(i) + " ");
+			Utils.print((int) str.charAt(i) + " ");
 		}
 	}
 
@@ -28,7 +28,7 @@ public final class Puzzle018 {
 		}
 		String str = new String(bytes, "ISO-8859-1");
 		for (int i = 0, n = str.length(); i < n; i++) {
-			System.out.print((int) str.charAt(i) + " ");
+			Utils.print((int) str.charAt(i) + " ");
 		}
 	}
 }
