@@ -1,7 +1,7 @@
 package net.gageot.puzzler;
 
 /**
- * Well, Dog My Cats!.<br/>
+ * Well, Dog My Cats!<br/>
  * http://my.safaribooksonline.com/book/programming/java/032133678x/classy-puzzlers/ch06lev1sec2
  */
 public class Puzzle047 {
